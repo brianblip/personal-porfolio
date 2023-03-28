@@ -3,6 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
+{/* main branch */}
 const Main = () => {
 	return (
 		<div id="home" className="w-full h-screen text-center">
