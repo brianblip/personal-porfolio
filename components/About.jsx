@@ -31,7 +31,7 @@ const About = () => {
 				<div className="shadow-xl shadow-gray-400 rounded-xl flex justify-between items-center w-[330px] h-[360px] m-auto p-4 hover:scale-105 ease-in duration-300">
 					<Image
 						className="rounded-xl"
-						src="/../public/assets/about-profile.png"
+						src="/assets/about-profile.png"
 						alt="/"
 						width="300"
 						height="200"
