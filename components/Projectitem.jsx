@@ -14,7 +14,7 @@ const Projectitem = ({ title, backgroundImg, projectUrl }) => {
 					{title}
 				</h3>
 				<p className="pb-5 pt-2 text-white text-center">React JS</p>
-				<Link href={projectUrl}>
+				<Link href="https://document-tracking-phi.vercel.app/">
 					<p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
 						More Info
 					</p>
