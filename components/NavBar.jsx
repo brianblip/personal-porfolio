@@ -84,7 +84,7 @@ const NavBar = () => {
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
 								<Image
-									src="/../public/assets/logo.png"
+									src="/logo.png"
 									alt="/"
 									width="70"
 									height="25"
