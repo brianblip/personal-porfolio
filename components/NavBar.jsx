@@ -34,7 +34,7 @@ const NavBar = () => {
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 				<Link href="/">
 					<Image
-						src="/../public/assets/logo.png"
+						src="./assets/logo.png"
 						alt="/"
 						width="90"
 						height="50"
@@ -83,7 +83,7 @@ const NavBar = () => {
 					<div>
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
-								<Image src="/assets/logo.png" alt="/" width="70" height="25" />
+								<Image src="./assets/logo.png" alt="/" width="70" height="25" />
 							</Link>
 							<div
 								onClick={handleNav}
