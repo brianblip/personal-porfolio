@@ -129,21 +129,19 @@ const NavBar = () => {
 							</ul>
 
 							<div className="pt-10">
-								<p className="uppercase tracking-widest text-[#5651e5]">
+								<p className="uppercase tracking-widest text-[#146C94]">
 									Let&apos;s connect
 								</p>
-								<div className="flex items-center justify-between my-4 w-full sm:w[80%]">
+								<div className="flex space-x-5 px-2 py-4my-4 w-full sm:w[80%] pt-2">
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaLinkedinIn />
+										<Link href="https://www.linkedin.com/in/john-brian-prado-584a13270/">
+											<FaLinkedinIn />
+										</Link>
 									</div>
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaGithub />
-									</div>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<AiOutlineMail />
-									</div>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<BsFillPersonLinesFill />
+										<Link href="https://github.com/brianblip">
+											<FaGithub />
+										</Link>
 									</div>
 								</div>
 							</div>
