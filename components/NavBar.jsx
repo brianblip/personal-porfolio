@@ -24,7 +24,7 @@ const NavBar = () => {
 	}, []);
 
 	return (
-		<div
+		<div style={{ backgroundColor: "#fff" }}
 			className={
 				shadow
 					? "fixed w-full h-20 shadow-xl z-[100]"
