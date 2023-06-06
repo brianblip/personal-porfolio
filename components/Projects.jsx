@@ -27,7 +27,7 @@ const Project = ({ imageSrc, title, description, link }) => {
 				alt="/"
 			/>
 			<div>
-				<h5 className="text-l tracking-wider">{title}</h5>
+				<h5 className="text-l tracking-wider py-3">{title}</h5>
 				<p className="pb-6 pt-2">
 					{getDescription(description, 140)}
 					{showReadMore(description, 140) && (
@@ -53,12 +53,18 @@ const Project = ({ imageSrc, title, description, link }) => {
 const Projects = () => {
 	return (
 		<div id="projects" className="w-full lg:h-screen py-10">
-			<div className="max-w-[1240px] m-auto">
+			<div className="max-w-[1240px] m-auto px-2 py-16 w-full">
 				<p className="text-xl tacking-widest uppercase text-[#146C94]">
 					Projects
 				</p>
 				<h2 className="py-4">What I&apos;ve Built</h2>
 				<div className="grid md:grid-cols-3 gap-8">
+					<Project
+						imageSrc="/assets/projects/Todo-App.png"
+						title="Todo App"
+						description="To do App is a simple web application that allows users to create, update, and delete tasks."
+						link="https://todo-app-ashy-seven-50.vercel.app/"
+					/>
 					<Project
 						imageSrc="/assets/projects/document-tracking.png"
 						title="Document Request Tracking System"
