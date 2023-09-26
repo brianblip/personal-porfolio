@@ -60,10 +60,10 @@ const Projects = () => {
 				<h2 className="py-4">What I&apos;ve Built</h2>
 				<div className="grid md:grid-cols-3 gap-8">
 					<Project
-						imageSrc="/assets/projects/Todo-App.png"
-						title="Todo App"
-						description="To do App is a simple web application that allows users to create, update, and delete tasks."
-						link="https://todo-app-ashy-seven-50.vercel.app/"
+						imageSrc="/assets/projects/calcu.png"
+						title="Calc"
+						description="Calcu is an online calculator that allows users to perform basic arithmetic operations. Built using HTML,CSS and Javascript, the application provides a simple and intuitive user interface that allows users to perform calculations with ease."
+						link="https://calcu-one.vercel.app/"
 					/>
 					<Project
 						imageSrc="/assets/projects/document-tracking.png"
