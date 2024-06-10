@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { buttonVariants } from "./ui/button";
 const About = () => {
   return (
     <div id="about" className="flex items-center w-full py-10 md:h-screen">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 px-2">
         <div className="col-span-2">
-          <h2 className="uppercase text-[25px] tracking-widest text-[#146C94] py-4">
+          <p className="py-4 text-4xl tracking-widest uppercase text-cyan-600">
             About Me
-          </h2>
+          </p>
           <p className="py-2 text-gray-600 ">
             My journey in web development began in 2020 when I started working
             on an e-commerce website as part of a school project. This project
@@ -24,11 +25,14 @@ const About = () => {
             React and Angular, which have allowed me to build complex web
             applications with ease.
           </p>
-          <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my projects.
-            </p>
-          </Link>
+          <div className="py-2">
+            <Link
+              href="/assets/BrianPrado.pdf"
+              className={buttonVariants({ variant: "" })}
+            >
+              <p>Resume</p>
+            </Link>
+          </div>
         </div>
         <div className="shadow-xl shadow-gray-400 rounded-xl flex justify-between items-center w-[330px] h-[360px] m-auto p-4 hover:scale-105 ease-in duration-300">
           <Image
