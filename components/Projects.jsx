@@ -9,37 +9,37 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full ">
       <div className="max-w-[1240px] mx-auto px-2 py-16 ">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="text-3xl tracking-widest uppercase text-cyan-600">
           Projects
         </p>
-        <p className="py-4">What I&apos;ve Built</p>
+        <p className="py-4 text-xl">What I&apos;ve Built</p>
         <div className="grid gap-6 md:grid-cols-2">
           <ProjectItem
             title="Document Request Tracking System"
             backgroundImg={documentTracking}
             projectUrl="https://drts.netlify.app/"
-            tech="React JS | firebase | Bootstrap | Postman |"
+            tech="React JS | firebase | Bootstrap | Postman "
             description="The Document Request Tracking System is a web app that streamlines document request management. Built with JavaScript and Firebase, it allows users to submit, track, and receive notifications for document requests."
           />
           <ProjectItem
             title="Budget Tracker"
             backgroundImg={budgetTracker}
             projectUrl="https://www.budget-tracker.net/"
-            tech="Next JS | Python | PostgresSQL | Tailwindcss | ShadcnUI | Postman |"
+            tech="Next JS | Python | PostgresSQL | Tailwindcss | ShadcnUI | Postman "
             description="Budget Tracker is a budget app that uses AI to automatically extract item prices from scanned receipts and input them into the website."
           />
           <ProjectItem
             title="Swift Form"
             backgroundImg={swiftForm}
             projectUrl="https://swiftform.boomtech.co/login"
-            tech="Next JS | Python | PostgresSQL | Tailwindcss | MantineUI | Figma | Postman |"
+            tech="Next JS | Python | PostgresSQL | Tailwindcss | MantineUI | Figma | Postman "
             description="SwiftForm is an AI-powered form builder similar to Google Forms. Users type a prompt, and the AI generates a form based on the prompt."
           />
           <ProjectItem
             title="Online Voting App"
             backgroundImg={votingApp}
             projectUrl="https://online-voting-app-api.000webhostapp.com/#/login"
-            tech="React JS | Bootstrap | MySQL | PHP | TypeScript |"
+            tech="React JS | Bootstrap | MySQL | PHP | TypeScript "
             description="The Online Voting Application is a secure, user-friendly web platform for conducting online voting. Built with TypeScript, PHP, and MySQL, it enables remote voting while ensuring election integrity."
           />
 
@@ -47,7 +47,7 @@ const Projects = () => {
             title="Calculator"
             backgroundImg={calcu}
             projectUrl="https://calcu-one.vercel.app/"
-            tech="React JS | CSS | Javascript | "
+            tech="React JS | CSS | Javascript  "
             description="Calcu is an online calculator for basic arithmetic. Built with HTML, CSS, and JavaScript, it provides a simple, intuitive interface for easy calculations."
           />
         </div>
