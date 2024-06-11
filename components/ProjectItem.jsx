@@ -16,15 +16,15 @@ const ProjectItem = ({
 
       <div className="flex-1 pt-6 pl-4 pr-4">
         <p className="text-3xl tracking-wide ">{title}</p>
-        <p className="pt-1 pl-2 text-lg">{tech}</p>
-        <p className="p-2 text-justify">{description}</p>
+        <p className="pt-1 text-lg">{tech}</p>
+        <p className="pt-2 pr-4 text-justify ">{description}</p>
       </div>
       <div className="flex justify-start mt-4 mb-4 ml-4">
         <Link
           className={buttonVariants({ variant: "default" })}
           href={projectUrl}
         >
-          View Projects
+          View Project
         </Link>
       </div>
     </div>

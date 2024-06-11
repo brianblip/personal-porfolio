@@ -52,7 +52,7 @@ const NavBar = () => {
                 Project
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#cta">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>

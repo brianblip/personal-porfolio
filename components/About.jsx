@@ -4,10 +4,10 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 const About = () => {
   return (
-    <div id="about" className="flex items-center w-full py-10 md:h-screen">
+    <div id="about" className="flex items-center w-full py-20 md:h-screen ">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 px-2">
         <div className="col-span-2">
-          <p className="py-4 text-4xl tracking-widest uppercase text-cyan-600">
+          <p className="py-4 text-3xl tracking-widest uppercase text-cyan-600">
             About Me
           </p>
           <p className="py-2 text-gray-600 ">
@@ -28,9 +28,9 @@ const About = () => {
           <div className="py-2">
             <Link
               href="/assets/BrianPrado.pdf"
-              className={buttonVariants({ variant: "" })}
+              className={buttonVariants({ variant: "default" })}
             >
-              <p>Resume</p>
+              <p className="text-base ">Resume</p>
             </Link>
           </div>
         </div>

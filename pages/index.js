@@ -1,11 +1,12 @@
-import Main from "../components/Main";
+import Main from "@/components/Main";
 import Head from "next/head";
-import Image from "next/image";
-import About from "../components/About";
-import Skills from "../components/Skills";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
+import Cta from "@/components/Cta";
+
 export default function Home() {
   return (
     <div>
@@ -20,7 +21,8 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      <Cta />
+      <Footer />
     </div>
   );
 }
