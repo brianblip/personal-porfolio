@@ -7,8 +7,8 @@ import budgetTracker from "../public/assets/projects/budget-tracker.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full ">
-      <div className="max-w-[1240px] mx-auto px-2 py-16 ">
+    <div id="projects" className="py-28 md:ml-14">
+      <div className="max-w-[1240px] mx-auto px-2  ">
         <p className="text-3xl tracking-widest uppercase text-cyan-600">
           Projects
         </p>

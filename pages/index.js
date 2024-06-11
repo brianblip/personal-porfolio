@@ -1,11 +1,11 @@
-import Main from "../components/Main";
+import Main from "@/components/Main";
 import Head from "next/head";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
-import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
+import Cta from "@/components/Cta";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-
+      <Cta />
       <Footer />
     </div>
   );
